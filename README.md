@@ -54,7 +54,7 @@
 | # | Proyecto | Descripción | ⭐ | Lenguaje | Topics |
 |---|----------|-------------|----|----------|--------|
 | 1 | [earth-view](https://github.com/colincode0/earth-view) | Interactive 3D satellite imagery explorer pulling NASA GIBS and Copernicus Sentinel data onto a Three.js globe, with regional zoom, time lapses, and OpenAI/Anth | 403 | TypeScript |  |
-| 2 | [torchsat](https://github.com/sshuair/torchsat) | 🔥TorchSat 🌏 is an open-source deep learning framework for satellite imagery analysis based on PyTorch.  | 397 | Python | classification, data-augmentation, deep-learning, pytorch, remote-sensing |
+| 2 | [torchsat](https://github.com/sshuair/torchsat) | 🔥TorchSat 🌏 is an open-source deep learning framework for satellite imagery analysis based on PyTorch. | 397 | Python | classification, data-augmentation, deep-learning, pytorch, remote-sensing |
 | 3 | [Satellite_Imagery_Analysis](https://github.com/syamkakarla98/Satellite_Imagery_Analysis) | Implementation of Machine Learning and Deep Learning techniques to find insights from the satellite data. | 274 | Jupyter Notebook | 3d-cnn, analysis, classification, clustering, data-analysis |
 | 4 | [Hyperspectral_Image_Analysis_Simplified](https://github.com/syamkakarla98/Hyperspectral_Image_Analysis_Simplified) | The repository contains the implementation of different machine learning techniques such as classification and clustering on Hyperspectral and Satellite Imagery | 244 | Jupyter Notebook | classification, data-analysis, data-science, dimensionality-reduction, hacktoberfest |
 | 5 | [Change-Detection-in-Satellite-Imagery](https://github.com/abhijeet3922/Change-Detection-in-Satellite-Imagery) | It employes Principal Component Analysis (PCA) and K-means clustering techniques over difference image to detect changes in multi temporal images satellite imag | 172 | Python |  |
@@ -101,13 +101,13 @@
 | 10 | [predict](https://github.com/kd2bd/predict) | Satellite tracking, orbital prediction, open-source software | 119 | C |  |
 | 11 | [SatsDecoder](https://github.com/baskiton/SatsDecoder) | Image and Telemetry decoder for some amateurs satellites (geoscan, sputnix platforms...) | 97 | Python | amateur, amateur-satellites, satellite-images, satellite-telemetry |
 | 12 | [Nexus](https://github.com/kd9taw/Nexus) | An all-mode amateur radio operations center — FT8/FT4, CW (with an AI decoder), SSB phone, RTTY, SSTV, APRS and satellites in one modern app: native decode, wat | 82 | Rust | amateur-radio, aprs, cw, dxcc, field-day |
-| 13 | [satnow-scraper](https://github.com/ANG13T/satnow-scraper) | OSINT web scraper for SatNow to extract details about satellite components and subsystem specs for in-depth reconnaissance 🛸  | 74 | Python | osint, python, reconnaissance, satellite, satnow |
+| 13 | [satnow-scraper](https://github.com/ANG13T/satnow-scraper) | OSINT web scraper for SatNow to extract details about satellite components and subsystem specs for in-depth reconnaissance 🛸 | 74 | Python | osint, python, reconnaissance, satellite, satnow |
 | 14 | [Pypredict](https://github.com/spel-uchile/Pypredict) | Real-time satellite tracker and orbit propagator | 66 | Python | celestrak, cubesat, femto-satellites, gpredict, localization |
-| 15 | [MeteorDemod](https://github.com/Digitelektro/MeteorDemod) | Decode Russian Meteor weather satellite | 45 | C++ |  |
+| 15 | [MeteorDemod](https://github.com/Digitelektro/MeteorDemod) | Decode Meteor weather satellite | 45 | C++ |  |
 | 16 | [ham-set](https://github.com/HoshinoSuzumi/ham-set) | Powerful Toolkit for Amateur Radio | 43 | TypeScript | crac-exam, ham-radio, maidenhead-locator, phonetic-alphabet, satellite |
 | 17 | [Zenith](https://github.com/magicbug/Zenith) | A modern web-based satellite tracking application designed for amateur radio operators and satellite enthusiasts. Zenith provides real-time satellite tracking,  | 42 | JavaScript |  |
 | 18 | [LNA](https://github.com/alicjamusial/LNA) | LNA with filter for 400-440 MHz (UHF for amateur satellites) | 42 |  | 435mhz, amplifier, filter, lna, low-noise |
-| 19 | [glrpt](https://github.com/dvdesolve/glrpt) | Interactive GUI application for receiving, decoding and displaying LRPT images from the Russian Meteor-M type of weather satellites | 40 | C |  |
+| 19 | [glrpt](https://github.com/dvdesolve/glrpt) | Interactive GUI application for receiving, decoding and displaying LRPT images from the Meteor-M type of weather satellites | 40 | C |  |
 | 20 | [weatherdump](https://github.com/luigifcruz/weatherdump) | Multi-platform toolkit for weather satellites reception and decoding. Available for Linux, macOS, Windows and RaspberryPi. | 37 | Go | hrd, lrpt |
 | 21 | [SatelliteConfigurationFiles](https://github.com/LarsThunberg/SatelliteConfigurationFiles) | Different configuration files for amateur radio satellite software and hardware. Please also visit www.amsat.se | 33 |  |  |
 | 22 | [starlink-viz](https://github.com/juliensimon/starlink-viz) | Real-time 3D Starlink satellite tracker with Space view, Sky view, live dish telemetry, SGP4 propagation, and ISL routing. Track ~10,000 satellites, ground stat | 29 | TypeScript | 3d, dashboard, internet-of-things, nextjs, orbital-mechanics |
@@ -115,7 +115,7 @@
 | 24 | [IPS](https://github.com/amsat-dl/IPS) | IPS - High Level Programming of Small Systems for the AMSAT space projects (communication satellites for radio amateurs) | 24 | Pascal | amsat, amsat-dl, amsat-space, communication-satellites, ips |
 | 25 | [HAMRadio](https://github.com/PW-Sat2/HAMRadio) | How-To and Wiki pages for PW-Sat2 Ground Segment equipment and software dedicated for radio amateurs. | 21 |  | cubesat, hamradio, satellite |
 | 26 | [handy](https://github.com/m7xer/handy) | utilities for handheld amateur radio. baofeng, CHIRP, CSV, programming cable, repeaters, satellites, doppler shift. | 20 | HTML | amateur-radio, chirp, ham, radio, repeaters |
-| 27 | [mlrpt](https://github.com/dvdesolve/mlrpt) | Application for receiving and decoding LRPT images from the Russian Meteor-M type of weather satellites | 14 | C |  |
+| 27 | [mlrpt](https://github.com/dvdesolve/mlrpt) | Application for receiving and decoding LRPT images from the Meteor-M type of weather satellites | 14 | C |  |
 | 28 | [Ground-station-for-satellite-tracking](https://github.com/DaveXNN/Ground-station-for-satellite-tracking) | Homemade antenna system for satellite tracking | 13 | Python | antenna-rotators, gpio-pins, nema23, python, python-gui-tkinter |
 | 29 | [HackRF-and-RTL-SDR-to-scan-satellite-signals](https://github.com/palacita135/HackRF-and-RTL-SDR-to-scan-satellite-signals) | step-by-step guide to get started with scanning satellite communications. | 13 |  |  |
 | 30 | [Keplereum](https://github.com/m-elhamlaoui/Keplereum) | Keplereum is a decentralized satellite communication system built on Ethereum blockchain technology. It allows ground stations to track and manage their satelli | 12 | Java | blockchain, blockchain-technology, clique, ethereum, geth |
@@ -164,7 +164,7 @@
 | # | Proyecto | Descripción | ⭐ | Lenguaje | Topics |
 |---|----------|-------------|----|----------|--------|
 | 1 | [spacetech-ssa](https://github.com/IBM/spacetech-ssa) | IBM Space Tech - Space Situational Awareness | 122 | Python | leo, orbit-predictions, space |
-| 2 | [skytrace](https://github.com/purton-tech/skytrace) | SkyTrace from Airbus and The European Space Agency - We want to improve space situational awareness by providing a data sharing and communication platform for s | 113 | Rust |  |
+| 2 | [skytrace](https://github.com/purton-tech/skytrace) | SkyTrace from Airbus and the Space Agency - We want to improve space situational awareness by providing a data sharing and communication platform for satellite  | 113 | Rust |  |
 | 3 | [satlas](https://github.com/PremaanshVyas/satlas) | Real-time space situational awareness, with an AI agent at the front door. | 31 | TypeScript |  |
 | 4 | [ssa-gym](https://github.com/AshHarvey/ssa-gym) | This is a repository of an OpenAI Gym environment for tasking Space Situational Awareness Sensors and some associated agents. | 22 | Python |  |
 | 5 | [space-situational-awareness-domain-ontology](https://github.com/rrovetto/space-situational-awareness-domain-ontology) | An ontology of space situational awareness. | 11 |  | astrodynamics, astronomy, concept-model, conceptual-data-model, conceptual-model |

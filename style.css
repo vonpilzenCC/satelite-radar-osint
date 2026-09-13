@@ -1,0 +1,264 @@
+/* La Guardia — Catálogo OSINT · Hoja de estilos */
+/* Tema militar oscuro · sin referencias geográficas */
+
+:root {
+  --fondo: #0a0a0a;
+  --fondo2: #121212;
+  --fondo3: #1a1a1a;
+  --rojo: #c20000;
+  --rojo-claro: #ff2a2a;
+  --rojo-tenue: rgba(194, 0, 0, 0.25);
+  --texto: #d8d8d8;
+  --gris: #7a7a7a;
+  --borde: #2a2a2a;
+  --amarillo: #ffb300;
+  --azul: #7ab8ff;
+  --serif: Georgia, 'Times New Roman', serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--fondo);
+  color: var(--texto);
+  font-family: var(--serif);
+  line-height: 1.55;
+  min-height: 100vh;
+}
+
+/* ---- Header ---- */
+header {
+  background: linear-gradient(180deg, #000 0%, var(--fondo) 100%);
+  border-bottom: 2px solid var(--rojo);
+  padding: 2rem 1.5rem 1.4rem;
+  text-align: center;
+  box-shadow: 0 0 24px var(--rojo-tenue);
+}
+
+header .logo {
+  font-size: 3rem;
+  filter: drop-shadow(0 0 8px var(--rojo));
+}
+
+header h1 {
+  color: var(--rojo-claro);
+  letter-spacing: .18em;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  margin: .3rem 0;
+  text-shadow: 0 0 10px rgba(194, 0, 0, .6);
+}
+
+header p {
+  color: var(--gris);
+  font-style: italic;
+  font-size: .95rem;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+/* ---- Stats bar ---- */
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+  justify-content: center;
+  margin-top: .9rem;
+}
+
+.stats span {
+  background: var(--fondo2);
+  border: 1px solid var(--borde);
+  color: var(--rojo-claro);
+  padding: .25rem .7rem;
+  font-size: .8rem;
+  letter-spacing: .05em;
+  border-radius: 2px;
+}
+
+/* ---- Main layout ---- */
+main {
+  max-width: 1200px;
+  margin: 1.2rem auto;
+  padding: 0 1rem;
+}
+
+/* ---- Controls ---- */
+.controles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: .7rem;
+  margin-bottom: 1.2rem;
+}
+
+.controles select,
+.controles input {
+  background: var(--fondo2);
+  color: var(--texto);
+  border: 1px solid var(--borde);
+  padding: .6rem .7rem;
+  font-family: var(--serif);
+  font-size: .9rem;
+  border-radius: 2px;
+  transition: border-color .15s, box-shadow .15s;
+}
+
+.controles select:focus,
+.controles input:focus {
+  outline: none;
+  border-color: var(--rojo);
+  box-shadow: 0 0 8px rgba(194, 0, 0, .4);
+}
+
+.controles input::placeholder { color: var(--gris); }
+
+/* ---- Category pills ---- */
+.cat-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin-bottom: 1.2rem;
+}
+
+.pill {
+  background: var(--fondo2);
+  border: 1px solid var(--borde);
+  color: var(--texto);
+  padding: .4rem .8rem;
+  font-size: .78rem;
+  cursor: pointer;
+  border-radius: 2px;
+  font-family: var(--serif);
+  letter-spacing: .03em;
+  transition: .15s;
+  user-select: none;
+}
+
+.pill:hover {
+  border-color: var(--rojo);
+  color: var(--rojo-claro);
+}
+
+.pill.active {
+  background: var(--rojo);
+  border-color: var(--rojo);
+  color: #fff;
+  box-shadow: 0 0 10px rgba(194, 0, 0, .5);
+}
+
+/* ---- Result count ---- */
+.result-count {
+  color: var(--gris);
+  font-size: .85rem;
+  margin-bottom: .8rem;
+}
+
+/* ---- Card grid ---- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: var(--fondo2);
+  border: 1px solid var(--borde);
+  border-left: 3px solid var(--rojo);
+  padding: 1rem 1.1rem;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  transition: .18s;
+}
+
+.card:hover {
+  border-left-color: var(--rojo-claro);
+  box-shadow: 0 0 14px var(--rojo-tenue);
+  transform: translateY(-2px);
+}
+
+.card .cat {
+  color: var(--rojo-claro);
+  font-size: .72rem;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+}
+
+.card a.titulo {
+  color: var(--texto);
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: bold;
+}
+
+.card a.titulo:hover {
+  color: var(--rojo-claro);
+  text-decoration: underline;
+}
+
+.card .desc {
+  color: var(--gris);
+  font-size: .85rem;
+  flex: 1;
+}
+
+.card .meta {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .4rem;
+  font-size: .78rem;
+  color: var(--gris);
+  border-top: 1px solid var(--borde);
+  padding-top: .5rem;
+}
+
+.card .meta .stars { color: var(--amarillo); }
+.card .meta .lang  { color: var(--azul); }
+
+.card .topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .3rem;
+  margin-top: .2rem;
+}
+
+.card .topics span {
+  background: #000;
+  border: 1px solid var(--borde);
+  color: var(--gris);
+  font-size: .68rem;
+  padding: .1rem .4rem;
+  border-radius: 2px;
+}
+
+/* ---- Empty state ---- */
+.vacio {
+  text-align: center;
+  color: var(--gris);
+  padding: 3rem;
+  font-style: italic;
+}
+
+/* ---- Footer ---- */
+footer {
+  border-top: 1px solid var(--borde);
+  margin-top: 2.5rem;
+  padding: 1.4rem;
+  text-align: center;
+  color: var(--gris);
+  font-size: .8rem;
+}
+
+footer a {
+  color: var(--rojo-claro);
+  text-decoration: none;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 760px) {
+  .controles { grid-template-columns: 1fr; }
+  header h1 { font-size: 1.3rem; }
+  header .logo { font-size: 2.4rem; }
+}

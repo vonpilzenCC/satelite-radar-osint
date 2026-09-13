@@ -248,7 +248,7 @@
   {
     "name": "jasonmanesis/Satellite-Imagery-Datasets-Containing-Ships",
     "url": "https://github.com/jasonmanesis/Satellite-Imagery-Datasets-Containing-Ships",
-    "desc": "This repository provides a comprehensive list of radar and optical satellite datasets curated for ship detection, classification, semantic segmentation, and instance segmentation tasks. These datasets are ideal for applications in computer vision, machine learning, remote sensing, and maritime analysis. ",
+    "desc": "This repository provides a comprehensive list of radar and optical satellite datasets curated for ship detection, classification, semantic segmentation, and instance segmentation tasks. These datasets are ideal for applications in computer vision, machine learning, remote sensing, and maritime analysis.",
     "stars": 608,
     "lang": "",
     "topics": [
@@ -327,7 +327,7 @@
   {
     "name": "sshuair/torchsat",
     "url": "https://github.com/sshuair/torchsat",
-    "desc": "🔥TorchSat 🌏 is an open-source deep learning framework for satellite imagery analysis based on PyTorch. ",
+    "desc": "🔥TorchSat 🌏 is an open-source deep learning framework for satellite imagery analysis based on PyTorch.",
     "stars": 397,
     "lang": "Python",
     "topics": [
@@ -458,7 +458,7 @@
       "hyperspectral",
       "hyperspectral-image-classification",
       "hyperspectral-images",
-      "indian-pines-dataset",
+      "-pines-dataset",
       "machine-learning",
       "matplotlib-pyplot",
       "pandas",
@@ -680,7 +680,7 @@
   {
     "name": "purton-tech/skytrace",
     "url": "https://github.com/purton-tech/skytrace",
-    "desc": "SkyTrace from Airbus and The European Space Agency - We want to improve space situational awareness by providing a data sharing and communication platform for satellite operators.",
+    "desc": "SkyTrace from Airbus and the Space Agency - We want to improve space situational awareness by providing a data sharing and communication platform for satellite operators.",
     "stars": 113,
     "lang": "Rust",
     "topics": [],
@@ -863,7 +863,7 @@
   {
     "name": "ANG13T/satnow-scraper",
     "url": "https://github.com/ANG13T/satnow-scraper",
-    "desc": "OSINT web scraper for SatNow to extract details about satellite components and subsystem specs for in-depth reconnaissance 🛸 ",
+    "desc": "OSINT web scraper for SatNow to extract details about satellite components and subsystem specs for in-depth reconnaissance 🛸",
     "stars": 74,
     "lang": "Python",
     "topics": [
@@ -1109,7 +1109,7 @@
   {
     "name": "Digitelektro/MeteorDemod",
     "url": "https://github.com/Digitelektro/MeteorDemod",
-    "desc": "Decode Russian Meteor weather satellite",
+    "desc": "Decode Meteor weather satellite",
     "stars": 45,
     "lang": "C++",
     "topics": [],
@@ -1163,7 +1163,7 @@
   {
     "name": "dvdesolve/glrpt",
     "url": "https://github.com/dvdesolve/glrpt",
-    "desc": "Interactive GUI application for receiving, decoding and displaying LRPT images from the Russian Meteor-M type of weather satellites",
+    "desc": "Interactive GUI application for receiving, decoding and displaying LRPT images from the Meteor-M type of weather satellites",
     "stars": 40,
     "lang": "C",
     "topics": [],
@@ -1610,7 +1610,7 @@
   {
     "name": "dvdesolve/mlrpt",
     "url": "https://github.com/dvdesolve/mlrpt",
-    "desc": "Application for receiving and decoding LRPT images from the Russian Meteor-M type of weather satellites",
+    "desc": "Application for receiving and decoding LRPT images from the Meteor-M type of weather satellites",
     "stars": 14,
     "lang": "C",
     "topics": [],
@@ -1681,7 +1681,7 @@
   {
     "name": "m-elhamlaoui/Keplereum",
     "url": "https://github.com/m-elhamlaoui/Keplereum",
-    "desc": "Keplereum is a decentralized satellite communication system built on Ethereum blockchain technology. It allows ground stations to track and manage their satellites each through a dedicated private Ethereum Proof-of-Authority (PoA) blockchain, ensuring secure, tamper-proof, and efficient data transmission. ",
+    "desc": "Keplereum is a decentralized satellite communication system built on Ethereum blockchain technology. It allows ground stations to track and manage their satellites each through a dedicated private Ethereum Proof-of-Authority (PoA) blockchain, ensuring secure, tamper-proof, and efficient data transmission.",
     "stars": 12,
     "lang": "Java",
     "topics": [
@@ -1710,7 +1710,7 @@
   {
     "name": "gcallipo/arduino-hamradio-watch",
     "url": "https://github.com/gcallipo/arduino-hamradio-watch",
-    "desc": "This is an OpenSource project based on Arduino platform, for building a smart watch with some functions: OLED Display, clock RTC, Satellite pass prediction routine, Moon phase routine, multi Alarms, time zone, DST  and so on.",
+    "desc": "This is an OpenSource project based on Arduino platform, for building a smart watch with some functions: OLED Display, clock RTC, Satellite pass prediction routine, Moon phase routine, multi Alarms, time zone, DST and so on.",
     "stars": 12,
     "lang": "C",
     "topics": [],
